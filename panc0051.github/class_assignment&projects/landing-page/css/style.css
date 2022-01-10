@@ -1,0 +1,228 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+}
+/***** Mobile-View *******/
+@media screen and (min-width:400px) {
+    .Logo {
+        width: 20%;
+        padding: 2%;
+    }
+
+    .boss {
+        font-size: 850%;
+        margin: 0%;
+        padding: 2%;
+    }
+
+    .start {
+        font-size: 7vw;
+        text-align: left;
+        color: darkgray;
+        padding: 2%;
+        margin: 0%;
+    }
+
+    img {
+        width: 80vw;
+        padding: 4%;
+        margin: 0%;
+    }
+
+    .apply {
+        font-size: 70px;
+        padding: 2%;
+        margin: 0%;
+    }
+
+    .para1 {
+        font-size: 4.6vw;
+        text-align: left;
+        color: darkgray;
+        padding: 2%;
+        margin: 0%;
+    }
+
+    .form input,
+    tel,
+    email,
+    checkbox[type=text] {
+        padding: 12px 20px;
+        width: 100%;
+        height: 35px;
+        font-size: 25px;
+        color: gray;
+        border-radius: 5px;
+        margin: 8px 9px;
+        display: inline-block;
+        border-radius: 4px;
+        box-sizing: border-box;
+        text-align: left;
+    }
+}
+/***** Button1 *******/
+.button1 {
+    background-color: #57eeab;
+    /* Green */
+    border: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    width: 100%;
+}
+/***** Paragraph 2 *******/
+.para2 {
+    text-align: left;
+    padding: 2%;
+    margin: 0%;
+    font-size: 4.6vw;
+}
+
+.mainform {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 19px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.footer {
+    background-color: #fffd8c;
+    margin-bottom: 0%;
+    margin-top: 9%;
+    width: 100%;
+    position: relative;
+}
+
+.footer h4 {
+    padding: 7px;
+    font-size: 25px;
+    margin: 3%;
+}
+
+.para3 {
+    font-size: 25px;
+    padding: 7px;
+    margin: 3%;
+}
+
+.parent {
+    display: grid;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 0%;
+    justify-content: space-evenly;
+}
+
+.button2 {
+    background-color: #ff8480;
+    /* Red */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: grid;
+    font-size: 26px;
+    margin: 4px 2px 3px;
+    cursor: pointer;
+    border-radius: 12px;
+    width: 100%;
+    line-height: 22%;
+}
+/***** Tablet-View *******/
+@media screen and (min-width:900px) {
+    .Logo {
+        width: 40%;
+        padding: 2%;
+    }
+
+    .boss {
+        font-size: 900%;
+        margin: 0%;
+        padding: 2%;
+    }
+
+    .start {
+        font-size: 4vw;
+        text-align: left;
+        color: darkgray;
+        padding: 2%;
+        margin: 0%;
+    }
+
+    .scooter {
+        width: 80vw;
+        padding: 4%;
+        margin: 0%;
+    }
+
+    .para2 {
+        text-align: left;
+        padding: 2%;
+        margin: 0%;
+        font-size: 3vw;
+    }
+
+    .parent {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-flow: row;
+        position: relative;
+        justify-content: space-around;
+
+    }
+
+    .button2 {
+        background-color: #ff8480;
+        /* Red */
+        border: none;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: grid;
+        font-size: 26px;
+        margin: 60px 60px;
+        cursor: pointer;
+        border-radius: 12px;
+        width: 100%;
+        line-height: 0;
+    }
+}
+/***** Web-View *******/
+@media screen and (min-width:1100px) {
+    .Logo {
+        width: 7%;
+    }
+    .boss {
+        font-size: 40px;
+        line-height: 0%;
+    }
+    
+    .start {
+        font-size: 20px;
+        line-height: 90%;
+    }
+
+}
+
+

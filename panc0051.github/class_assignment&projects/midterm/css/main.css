@@ -1,0 +1,72 @@
+html{
+  font: 16px;
+}
+/*increasing font size*/
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+}
+
+/*
+.Fish {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+*/
+.Fish h1{
+    position:relative;
+    background-image: url(image/lone-starfish-wide.jpg);
+    width: 20%;
+    bottom: 50%;
+    left: 52%;
+    color: whitesmoke;
+    transform: translate(-50%, -50%);
+    letter-spacing: 1px;
+    padding: 3px;
+}
+/*
+nav {
+    position:relative
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 999;
+  }
+*/
+  nav ul li{
+  position: relative;
+  display: inline-block;
+  width: 15%;
+  color: purple;
+  text-align: center;
+  box-sizing: border-box;
+  
+  
+}
+/*navigation decoration*/
+nav ul a:hover,
+nav ul a:focus {
+  text-decoration: underline;
+}
+
+nav ul a:active {
+  /* horizontal vertical blur spread color */
+  box-shadow: 0 0 4px 2px black;
+}
+/*Image setting*/
+img {
+    float:left;
+    width: 9em;
+    padding-right: 1em;
+  }
+/*adding border to form*/
+  #mix+h4+form {
+    border: 5px solid brown; 
+    padding: 20px;
+  }
+
+  p{
+    padding: 2px;
+  }

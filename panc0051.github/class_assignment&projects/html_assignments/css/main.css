@@ -1,0 +1,54 @@
+/*increasing font size*/
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+
+/* adding header & footer background color*/
+
+header,
+footer {
+    background-color: cornflowerblue;
+}
+
+/*Class selector*/
+.site-title {
+    color: cornsilk;
+}
+
+/*Id selector*/
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+
+/*Replace bullets from list of hobbies*/
+h2+ul {
+    list-style: square;
+}
+
+/*Using nth-child, adding background in odd list*/
+h2+ul :nth-child(odd) {
+    color: purple;
+    background-color: yellowgreen
+}
+
+/*Remove Bullets from Nav and remove Underline from link*/
+nav ul li {
+    list-style: none;
+}
+
+nav ul :link {
+    text-decoration: none;
+}
+
+/*Hover background color change*/
+nav ul :hover {
+    color: red;
+}
+
+/*LoVe HAte*/
+nav ul li,
+nav ul :link,
+nav ul :hover {
+    background-color: chartreuse;
+}

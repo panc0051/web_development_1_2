@@ -1,0 +1,852 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+/****************SETTING UP AN HEADER***********/
+.main {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image1 {
+  position: relative;
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  border: 1px red solid;
+}
+
+.image2 {
+  position: absolute;
+  margin: 0%;
+  padding: 0%;
+  top: 0px;
+  left: 0px;
+  border: 1px green solid;
+  width: 20%;
+  height: 25%;
+}
+
+/******   Media Screens   *******/
+/************FOR MOBILE *****************/
+@media screen and (min-width:400px) {
+  .image1 {
+    width: 570px;
+    height: 761px;
+  }
+
+  .image2 {
+    width: 130px;
+    height: 130px;
+  }
+
+  .btn-1 {
+    position: absolute;
+    top: 6%;
+    left: 32%;
+    transform: translate(-50%, -10%);
+    color: orange;
+    background-color: transparent;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .btn-1:hover {
+    background-color: coral;
+
+  }
+
+  .btn-2 {
+    position: absolute;
+    top: 6%;
+    left: 60%;
+    transform: translate(-50%, -10%);
+    color: orange;
+    background-color: transparent;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+
+  }
+
+  .btn-2:hover {
+    background-color: crimson;
+  }
+
+  .btn-3 {
+    position: absolute;
+    top: 6%;
+    left: 89%;
+    transform: translate(-50%, -10%);
+    color: orange;
+    background-color: transparent;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+
+  }
+
+  .btn-3:hover {
+    background-color: crimson;
+  }
+
+  .btn-4 {
+    position: absolute;
+    top: 55%;
+    left: 4%;
+    color: orange;
+    background-color: darkblue;
+    font-family: 'Dancing Script', cursive;
+    font-size: 13.5px;
+    cursor: pointer;
+    border-radius: 5%;
+  }
+
+  .H1 {
+    position: absolute;
+    top: 55%;
+    left: 76%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 19.5px;
+    color: coral;
+
+
+  }
+
+
+}
+
+/************FOR TABLET*****************/
+@media screen and (min-width:680px) {
+  .image1 {
+    width: 100%;
+    height: 770px;
+  }
+
+  .image2 {
+    width: 180px;
+    height: 180px;
+  }
+
+  .btn {
+    position: absolute;
+    padding: 20%;
+  }
+
+  .btn-1 {
+    top: 6%;
+    left: 87%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .btn-1:hover {
+    background-color: purple;
+    color: seagreen;
+  }
+
+  .btn-2 {
+    top: 6%;
+    left: 140%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .btn-3 {
+    top: 6%;
+    left: 200%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .btn-4 {
+    top: 120%;
+    font-size: 100%;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  .H1 {
+    position: absolute;
+    top: 55%;
+    left: 76%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color: coral;
+
+
+  }
+}
+
+/*********  FOR WEB **********/
+@media screen and (min-width:880px) {
+  .image1 {
+    width: 1450px;
+    height: 822px;
+  }
+
+  .image2 {
+    width: 230px;
+    height: 230px;
+  }
+
+  .btn {
+    position: absolute;
+    padding: 20%;
+  }
+
+  .btn-1 {
+    top: 6%;
+    left: 60%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .btn-1:hover {
+    background-color: purple;
+    color: seagreen;
+  }
+
+  .btn-2 {
+    top: 6%;
+    left: 130%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .btn-3 {
+    top: 6%;
+    left: 200%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .btn-4 {
+    top: 70%;
+    left: 30%;
+    font-size: 100%;
+
+    font-family: 'Dancing Script', cursive;
+  }
+
+  .H1 {
+    position: absolute;
+    top: 55%;
+    left: 74%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 69px;
+    color: coral;
+
+
+  }
+}
+
+/*Appliying Gradient effect on Button "+ CREATE YOUR OWN" to view CLICK ON BUTTON*/
+.btn-4 {
+  width: 120px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: absolute;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+.btn-4:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in;
+  border-radius: 10px;
+}
+
+.btn-4:active {
+  color: #000
+}
+
+.btn-4:active:after {
+  background: transparent;
+}
+
+.btn-4:hover:before {
+  opacity: 5;
+}
+
+.btn-4r:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 10 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+/*ANIMATED BUTTONS*/
+/*mobile*/
+@media screen and (min-width:400px) {
+
+  /*************button- 1****************/
+  .btn-1 {
+    width: 1px;
+    height: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    margin-left: 30px;
+  }
+
+  .btn-1 {
+    text-decoration: none;
+    color: white;
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    border: 3px solid white;
+    padding: 20px 50px;
+    margin-top: 9%;
+    position: relative;
+    overflow: hidden;
+
+  }
+
+  .btn-1:before {
+    content: '';
+    background-color: #f44336;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    transform: skew(-15deg);
+    animation: moving 1.2s linear infinite;
+    transition: all .5s;
+  }
+
+  @keyframes moving {
+    from {
+      left: -120px;
+    }
+
+    to {
+      left: 100%;
+    }
+  }
+
+  .btn-1:hover::before {
+    width: 10px;
+    transform: skew(0deg);
+    animation: none;
+  }
+
+  /*Button-2*/
+  .btn-2 {
+    width: 1px;
+    height: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    margin-left: 30px;
+  }
+
+  .btn-2 {
+    text-decoration: none;
+    color: white;
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    border: 3px solid white;
+    padding: 20px 50px;
+    margin-top: -8.5%;
+    position: relative;
+    overflow: hidden;
+
+  }
+
+  .btn-2:before {
+    content: '';
+    background-color: #f44336;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    transform: skew(-15deg);
+    animation: moving 1.2s linear infinite;
+    transition: all .5s;
+  }
+
+  @keyframes moving {
+    from {
+      left: -120px;
+    }
+
+    to {
+      left: 100%;
+    }
+  }
+
+  .btn-2:hover::before {
+    width: 10px;
+    transform: skew(0deg);
+    animation: none;
+  }
+
+  /*Button-3*/
+  .btn-3 {
+    width: 1px;
+    height: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    margin-left: 30px;
+  }
+
+  .btn-3 {
+    text-decoration: none;
+    color: white;
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+    border: 3px solid white;
+    padding: 20px 40px;
+    margin-top: -8.5%;
+    margin-left: 11px;
+    position: relative;
+    overflow: hidden;
+
+  }
+
+  .btn-3:before {
+    content: '';
+    background-color: #f44336;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    transform: skew(-15deg);
+    animation: moving 1.2s linear infinite;
+    transition: all .5s;
+  }
+
+  @keyframes moving {
+    from {
+      left: -120px;
+    }
+
+    to {
+      left: 100%;
+    }
+  }
+
+  .btn-3:hover::before {
+    width: 10px;
+    transform: skew(0deg);
+    animation: none;
+  }
+}
+
+/*tablet*/
+@media screen and (min-width:680px) {
+
+  /*button- 1*/
+  .btn-1 {
+    width: 1px;
+    height: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    margin-left: 30px;
+  }
+
+  .btn-1 {
+    text-decoration: none;
+    color: white;
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    border: 3px solid white;
+    padding: 20px 70px;
+    margin-top: -71%;
+    margin-left: -20%;
+    position: relative;
+    overflow: hidden;
+
+  }
+
+  .btn-1:before {
+    content: '';
+    background-color: #f44336;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    transform: skew(-15deg);
+    animation: moving 1.2s linear infinite;
+    transition: all .5s;
+  }
+
+  @keyframes moving {
+    from {
+      left: -120px;
+    }
+
+    to {
+      left: 100%;
+    }
+  }
+
+  .btn-1:hover::before {
+    width: 10px;
+    transform: skew(0deg);
+    animation: none;
+  }
+
+  /*Button-2*/
+  .btn-2 {
+    width: 1px;
+    height: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    margin-left: 30px;
+  }
+
+  .btn-2 {
+    text-decoration: none;
+    color: white;
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    border: 3px solid white;
+    padding: 20px 70px;
+    margin-top: -32%;
+    margin-left: 70%;
+    position: relative;
+    overflow: hidden;
+
+  }
+
+  .btn-2:before {
+    content: '';
+    background-color: #f44336;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    transform: skew(-15deg);
+    animation: moving 1.2s linear infinite;
+    transition: all .5s;
+  }
+
+  @keyframes moving {
+    from {
+      left: -120px;
+    }
+
+    to {
+      left: 100%;
+    }
+  }
+
+  .btn-2:hover::before {
+    width: 10px;
+    transform: skew(0deg);
+    animation: none;
+  }
+
+  /*Button-3*/
+  .btn-3 {
+    width: 1px;
+    height: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    margin-left: 30px;
+  }
+
+  .btn-3 {
+    text-decoration: none;
+    color: white;
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+    border: 3px solid white;
+    padding: 20px 70px;
+    margin-top: -32%;
+    margin-left: 150%;
+    position: relative;
+    overflow: hidden;
+
+  }
+
+  .btn-3:before {
+    content: '';
+    background-color: #f44336;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    transform: skew(-15deg);
+    animation: moving 1.2s linear infinite;
+    transition: all .5s;
+  }
+
+  @keyframes moving {
+    from {
+      left: -120px;
+    }
+
+    to {
+      left: 100%;
+    }
+  }
+
+  .btn-3:hover::before {
+    width: 10px;
+    transform: skew(0deg);
+    animation: none;
+  }
+}
+
+/*Web*/
+@media screen and (min-width:880px) {
+
+  /*button- 1*/
+  .btn-1 {
+    width: 1px;
+    height: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    margin-left: 30px;
+  }
+
+  .btn-1 {
+    text-decoration: none;
+    color: white;
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    border: 3px solid white;
+    padding: 40px 70px;
+    margin-top: -145%;
+    margin-left: 20%;
+    position: relative;
+    overflow: hidden;
+
+  }
+
+  .btn-1:before {
+    content: '';
+    background-color: #f44336;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    transform: skew(-15deg);
+    animation: moving 1.2s linear infinite;
+    transition: all .5s;
+  }
+
+  @keyframes moving {
+    from {
+      left: -120px;
+    }
+
+    to {
+      left: 100%;
+    }
+  }
+
+  .btn-1:hover::before {
+    width: 10px;
+    transform: skew(0deg);
+    animation: none;
+  }
+
+  /*Button-2*/
+  .btn-2 {
+    width: 1px;
+    height: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    margin-left: 30px;
+  }
+
+  .btn-2 {
+    text-decoration: none;
+    color: white;
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    border: 3px solid white;
+    padding: 40px 70px;
+    margin-top: -60%;
+    margin-left: 170%;
+    position: relative;
+    overflow: hidden;
+
+  }
+
+  .btn-2:before {
+    content: '';
+    background-color: #f44336;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    transform: skew(-15deg);
+    animation: moving 1.2s linear infinite;
+    transition: all .5s;
+  }
+
+  @keyframes moving {
+    from {
+      left: -120px;
+    }
+
+    to {
+      left: 100%;
+    }
+  }
+
+  .btn-2:hover::before {
+    width: 10px;
+    transform: skew(0deg);
+    animation: none;
+  }
+
+  /*Button-3*/
+  .btn-3 {
+    width: 1px;
+    height: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    margin-left: 30px;
+  }
+
+  .btn-3 {
+    text-decoration: none;
+    color: white;
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    border: 3px solid white;
+    padding: 40px 70px;
+    margin-top: -60%;
+    margin-left: 350%;
+    position: relative;
+    overflow: hidden;
+
+  }
+
+  .btn-3:before {
+    content: '';
+    background-color: #f44336;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    transform: skew(-15deg);
+    animation: moving 1.2s linear infinite;
+    transition: all .5s;
+  }
+
+  @keyframes moving {
+    from {
+      left: -120px;
+    }
+
+    to {
+      left: 100%;
+    }
+  }
+
+  .btn-3:hover::before {
+    width: 10px;
+    transform: skew(0deg);
+    animation: none;
+  }
+}

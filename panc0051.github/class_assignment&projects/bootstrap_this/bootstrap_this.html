@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>Bootstrap Foundations</title>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Preet's Bootstrap</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success bg-dark text-danger" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <!--- (completed navigation ---now change color of navbar and add content in dropdown menu)-->
+
+
+
+
+  <div class="jumbotron text-center">
+    <h1 class="display-4">What exactly is Bootstrap?</h1>
+    <p class="lead">
+      Bootstrap is a free, fast, and easier front-end web development framework
+      Bootstrap contains HTML and CSS design templates for typography, forms, buttons, tables, browsing models, image
+      carusel and many more.
+      You can also create responsive designs easily by Bootstrap.</p>
+    <hr class="my-4">
+    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  </div>
+
+  <div class="container">
+    <section class="content">
+      <h1>How to use Bootstrap</h1>
+      <p>Template Startup 
+        Make sure that your pages are designed with the latest standards for design and development. Including a viewport meta tag for correct behaviour, that means using an HTML5 doctype. Put everything together and make your pages look this way:
+      </p>
+      <div class="card-group">
+        <div class="card">
+          <img class="card-img-top" src="/bootstrap_this/image/1.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Click on "Get started"</h5>
+            <p class="card-text">Insted of Download, Click on "Get started" </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="/bootstrap_this/image/2.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Starter template</h5>
+            <p class="card-text">Scroll down to "Starter template</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="/bootstrap_this/image/3.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Simply copy</h5>
+            <p class="card-text">Click on copy button and smily paste on visual studio code </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+</section>
+
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="display-1 mb-2 bg-primary text-white">Bootstrap Foundation & Componants</div>
+
+
+      <div class="col-sm-4">
+            <h2>Static Backdrop</h2>
+            <p>The modal will not close if the background is fixed to static. To try this, click the below button.</p>
+      </div>
+      <div class="col-sm-4">
+            <h2>Checkboxes and radios</h2>
+            <p>Place Bootstrap’s checkboxes and radios within list group items and customize as needed. You can use them without "Label" tag, but please remember to include an aria-label attribute and value for accessibility.</p>
+      </div>
+      <div class="col-sm-4">
+            <h2>Split button</h2>
+            <p>In the same way, split button dropdowns are created with practically the same markdown as single button drops but added. For proper spacing around the dropdown caret, dropdown-toggle-split.</p>
+      </div>
+      <div class="col-sm-4">
+            <h2>Border</h2>
+            <p>Change the border colour using our theme colour utilities.</p>
+      </div>
+      <div class="col-sm-4">
+            <h2>Color</h2>
+            <p>Change the colour of an element using our theme colour utilities.</p>
+      </div>
+      <div class="col-sm-4">
+            <h2>Interactions</h2>
+            <p>Utilities classes that alter the interaction of users with website contents.</p>
+      </div>
+    </div>
+  </div>
+  <h1 class="display-1">Componants</h1>
+  <!--COMPONANTS#1-->
+  <h2 class="display-5">Static Backdrop</h2>
+  <p>The modal will not close if the background is fixed to static. To try this, click the below button.</p>
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Launch static backdrop modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">This is Modal</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Before getting started with Bootstrap’s modal component, be sure to read the following as our menu options have recently changed.
+        Modals are built with HTML, CSS, and JavaScript. 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--COMPONANTS#2-DONE-->
+<!--COMPONANTS#3-->
+<div class="container-fluid">
+<h2 class="display-5">Checkboxes and radios</h2>
+<p>Place Bootstrap’s checkboxes and radios within list group items and customize as needed. You can use them without "Label" tag, but please remember to include an aria-label attribute and value for accessibility.</p>
+</div>
+<ul class="list-group">
+  <li class="list-group-item">
+    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+    First checkbox
+  </li>
+  <li class="list-group-item">
+    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+    Second checkbox
+  </li>
+  <li class="list-group-item">
+    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+    Third checkbox
+  </li>
+  <li class="list-group-item">
+    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+    Fourth checkbox
+  </li>
+  <li class="list-group-item">
+    <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+    Fifth checkbox
+  </li>
+</ul>
+<!--COMPONANTS#3-DONE-->
+<!--COMPONANTS#4-->
+<h2 class="display-5">Split button</h2>
+<p>In the same way, split button dropdowns are created with practically 
+  the same markdown as single button drops but added. For proper spacing
+  around the dropdown caret, dropdown-toggle-split.This supplementary class
+  is used to reduce the horizontal padding by 25 percent on either side of
+  the care and remove the left margin for regular button downdrops. These
+  additional changes keep the attention focused on the split button and give
+  a more suitable hit area next to the main button.</p>
+  <!-- Example split danger button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-danger">Action</button>
+  <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="visually-hidden">Toggle Dropdown</span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">Separated link</a></li>
+  </ul>
+</div>
+<!--COMPONANTS#4-DONE-->
+<!--COMPONANTS#5-->
+<h2 class="display-5">Multiple targets</h2>
+<p>A button can show several elements and hide them by referring them to a href or data-bs-objective attribute with a selector. Much button or a may appear and hide an element with href or data-bs-target attributes if each reference is made to it.</p>
+<p>
+  <a class="btn btn-warning text-light" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
+  <button class="btn btn-info text-light" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
+  <button class="btn btn-success text-light" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
+</p>
+<div class="row">
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapseExample1">
+      <div class="card card-body">
+        Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapseExample2">
+      <div class="card card-body">
+        Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+      </div>
+    </div>
+  </div>
+</div>
+<!--COMPONANTS#5-DONE-->
+<!--UTILITIES-->
+<h1 class="display-1">Utilities</h2>
+<!--UTLITIES#1-->
+<h3 class="display-4">Border & Its color</h3>
+<p>Change the border colour using our theme colour utilities.</p>
+<p class="border border-primary border-5">To quickly style the border and border radius of an element, use border utilities. It's great for pictures, buttons or any item.</p>
+<p class="border border-secondary border-4">To quickly style the border and border radius of an element, use border utilities. It's great for pictures, buttons or any item.</p>
+<p class="border border-success border-3">To quickly style the border and border radius of an element, use border utilities. It's great for pictures, buttons or any item.</p>
+<p class="border border-danger border-2">To quickly style the border and border radius of an element, use border utilities. It's great for pictures, buttons or any item.</p>
+<p class="border border-warning border-1">To quickly style the border and border radius of an element, use border utilities. It's great for pictures, buttons or any item.</p>
+<p class="border border-info border-2">To quickly style the border and border radius of an element, use border utilities. It's great for pictures, buttons or any item.</p>
+<p class="border border-light border-3">To quickly style the border and border radius of an element, use border utilities. It's great for pictures, buttons or any item.</p>
+<p class="border border-dark border-4">To quickly style the border and border radius of an element, use border utilities. It's great for pictures, buttons or any item.</p>
+<p class="border border-white border-5">To quickly style the border and border radius of an element, use border utilities. It's great for pictures, buttons or any item.</p>
+<!--UTLITIES#1-DONE-->
+<!--UTILITIES#2-->
+<h3 class="display-4">Color</h3>
+<p class="text-primary">Change the colour of an element using our theme colour utilities.</p>
+<p class="text-secondary">Change the colour of an element using our theme colour utilities.</p>
+<p class="text-success">Change the colour of an element using our theme colour utilities.</p>
+<p class="text-danger">Change the colour of an element using our theme colour utilities.</p>
+<p class="text-warning bg-dark">Change the colour of an element using our theme colour utilities.</p>
+<p class="text-info bg-dark">Change the colour of an element using our theme colour utilities.</p>
+<p class="text-light bg-dark">Change the colour of an element using our theme colour utilities.</p>
+<p class="text-dark">Change the colour of an element using our theme colour utilities.</p>
+<p class="text-body">Change the colour of an element using our theme colour utilities.</p>
+<p class="text-muted">.text-muted</p>
+<p class="text-white bg-dark">Change the colour of an element using our theme colour utilities.</p>
+<p class="text-black-50">Change the colour of an element using our theme colour utilities.</p>
+<p class="text-white-50 bg-dark">Change the colour of an element using our theme colour utilities.</p>
+<!--UTILITIES#2-DONE-->
+<!--UTILITIES#3-->
+<h3 class="display-4">Interactions</h3>
+<p>Utilities classes that alter the interaction of users with website contents.</p>
+<p><a href="#" class="pe-none" tabindex="-1" aria-disabled="true">This link</a> can not be clicked.</p>
+<p><a href="#" class="pe-auto">This link</a> can be clicked (this is default behavior).</p>
+<p class="pe-none"><a href="#" tabindex="-1" aria-disabled="true">This link</a> can not be clicked because the <code>pointer-events</code> property is inherited from its parent. However, <a href="#" class="pe-auto">this link</a> has a <code>pe-auto</code> class and can be clicked.</p>
+<!--UTILITIES#3-DONE-->
+<!--UTILITIES#4-->
+<h3 class="display-4">Shadows</h3>
+<div class="shadow-none p-3 mb-5 bg-light rounded">Utilities classes that add drop shadows to elements.</div>
+<div class="shadow-sm p-3 mb-5 bg-body rounded">Utilities classes that add drop shadows to elements.</div>
+<div class="shadow p-3 mb-5 bg-body rounded">Utilities classes that add drop shadows to elements.</div>
+<div class="shadow-lg p-3 mb-5 bg-body rounded">Utilities classes that add drop shadows to elements.</div>
+
+<!--Rest of Adding is Pending-->
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+
+</html>

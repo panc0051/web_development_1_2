@@ -1,0 +1,292 @@
+
+.navbar{
+    background-color: #14213d;
+    color: #fff;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;
+}
+.menu .one{
+    color: white;
+}
+.menu .one:hover{
+    color:black;
+}
+.menu .two{
+    color: white;
+}   
+.menu .two:hover{
+    color:black;
+}
+
+.menu .three{
+    color: white;
+}
+.menu .three:hover{
+    color:black;
+}
+
+.menu .four{
+    color: white;
+}
+.menu .four:hover{
+    color:black;
+}
+
+.menu .five{
+    color: white;
+}
+.menu .five:hover{
+    color:black;
+}
+.menu .six{
+    color: white;
+}
+.menu .six:hover{
+    color:black;
+}
+
+
+.navbar{
+    color: #fff;
+    font-weight: 500;
+    line-height: 1;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;
+    position: relative;
+}
+.navbar-brand{
+    color: #fff;
+    font-weight: 500;
+    line-height: 1;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;
+    position: relative;
+}
+.navbar-brand:hover{
+    color: rgb(219, 33, 33);
+    font-weight: 500;
+}
+
+
+.footer{
+    background-color: #fca311;
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 500;
+    line-height: 1;
+    width: 100%;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;
+    position: relative;
+}
+/* Hearder & Footer done */
+/* Content */
+.hello-index{
+    text-align: center;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+  
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+  }
+  
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; 
+    flex: 25%;
+    max-width: 25%; 
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  /* unline text */
+  .list {
+    text-decoration: underline overline; 
+  }
+/* About-Page */
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #c1d3fe;
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  /* About-Page done */
+/* Form-Page */
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout*/
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
