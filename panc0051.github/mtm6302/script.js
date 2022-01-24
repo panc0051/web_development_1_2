@@ -10,3 +10,6 @@ const inclass = true
 
 //template literal
 const message = `My name is ${firstName} ${lastName} and I am ${age} years old.`
+
+// selceting the message
+const message2 = document.querySelector('#message')
