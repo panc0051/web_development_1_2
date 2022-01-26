@@ -1,0 +1,17 @@
+//week 2
+//variables 
+// Variables are containers for storing data values.
+// Variables are declared using the var keyword.
+// Variables can be given a name, and can be assigned a value.
+// Variables can be of any data type, including numbers, strings, booleans, and arrays.
+
+
+//Declacing statement
+//var functioin scope, can be reasigned and re-declared.
+// let - block scope, can be reasigned and re-declared.
+// const - block scope, can not be reasigned and re-declared.
+
+//Example
+
+// Declaring without assignment
+var empleyeeName
